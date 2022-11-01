@@ -10,7 +10,8 @@ public class Main {
 //    firstExample();
 //    secondExample();
 //    thirdExample();
-    fourthExample();
+//    fourthExample();
+    System.out.println(fiveExample());
   }
 
   //Продемонстрировать получение ArithmeticException
@@ -75,5 +76,17 @@ public class Main {
     } finally {
       System.out.println("finally");
     }
+  }
+
+  //Если оператор return содержится и в блоке catch и в finally, какой из них “главнее”?
+  //Вернется из блока finally.
+  public static String fiveExample() {
+      try {
+        return "SomeString";
+      } catch(Exception ex) {
+        return "Catch message";
+      } finally {
+        return "Finally message";
+      }
   }
 }

@@ -15,12 +15,12 @@ public class FileOutput {
 //    wr.close();
 
 
-//    try (Writer wr = new FileWriter(PKG_DIRECTORY + "/" + OUTPUT_FILE_NAME)) {
-//      wr.write("Hello!");
-//    }
-//    catch (IOException e) {
-//      System.out.println("LOG: " + e.getMessage());
-//    }
+    try (Writer wr = new FileWriter(PKG_DIRECTORY + "/" + OUTPUT_FILE_NAME)) {
+      wr.write("Hello!");
+    }
+    catch (IOException e) {
+      System.out.println("LOG: " + e.getMessage());
+    }
   }
 
 }
