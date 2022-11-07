@@ -1,5 +1,6 @@
 package week2.GenericsAndCollections.tasks.task9;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -25,7 +26,6 @@ import java.util.Scanner;
 мышь 1
  */
 public class WordCount {
-    //TODO: ПРО PECS: https://habr.com/ru/post/559268/
 
     public static void main(String[] args) {
         //решение со списком
@@ -38,13 +38,17 @@ public class WordCount {
         words.add("слон");
         System.out.println(getWordsCount(words));
 
+        Map<String, Integer> map1 = new HashMap<>();
+        map1.put("a", 1);
+        map1.put("a", 2);
+        map1.put("a", 1);
+        System.out.println("MAP: " + map1);
         //решение со Scanner
         Map<String, Integer> map = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         for (int i = 0; i < n; i++) {
             String str = scanner.next();
-
             Integer count = map.get(str);
             if (count == null) {
                 count = 1;

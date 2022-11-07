@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc9ea9b-4d3d-4cb4-93b3-d06452cc6bd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/Exceptions/tasks/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task1/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task2/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task3/Sets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task4/ListUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task5/ConvertHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task6/StringCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task7/DeleteListElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task8/MapSave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task9/WordCount.java" afterDir="false" />
+    <list default="true" id="7dc9ea9b-4d3d-4cb4-93b3-d06452cc6bd6" name="Changes" comment="generic and collections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week1/Exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/Exceptions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task3/Sets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task3/Sets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task4/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task4/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task5/ConvertHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task5/ConvertHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task7/DeleteListElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task7/DeleteListElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task9/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task9/WordCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +72,13 @@
       <recent name="week2.GenericsAndCollections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sets">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Exceptions.tasks.Array" />
+  <component name="RunManager" selected="Application.WordCount">
+    <configuration name="DeleteListElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.GenericsAndCollections.tasks.task7.DeleteListElement" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.Exceptions.tasks.*" />
+          <option name="PATTERN" value="week2.GenericsAndCollections.tasks.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.GenericsAndCollections.tasks.task5.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.GenericsAndCollections.Main" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.GenericsAndCollections.tasks.task5.*" />
+          <option name="PATTERN" value="week2.GenericsAndCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Exceptions.tasks.TestEx" />
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.GenericsAndCollections.tasks.task9.WordCount" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week1.Exceptions.tasks.*" />
+          <option name="PATTERN" value="week2.GenericsAndCollections.tasks.task9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sets" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="Application.DeleteListElement" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.TestEx" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Sets" />
       </list>
     </recent_temporary>
   </component>
@@ -183,8 +172,17 @@
       <workItem from="1667146148154" duration="808000" />
       <workItem from="1667243564400" duration="623000" />
       <workItem from="1667316008198" duration="17993000" />
-      <workItem from="1667513857632" duration="5776000" />
+      <workItem from="1667513857632" duration="20533000" />
+      <workItem from="1667747344238" duration="750000" />
     </task>
+    <task id="LOCAL-00001" summary="generic and collections">
+      <created>1667590338128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667590338128</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="generic and collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic and collections" />
   </component>
 </project>

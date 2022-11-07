@@ -16,6 +16,7 @@ public class ListUtils {
                 ++counter;
             }
         }
+
         return counter;
     }
 }

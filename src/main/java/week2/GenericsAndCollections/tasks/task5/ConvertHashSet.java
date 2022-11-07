@@ -22,6 +22,7 @@ public class ConvertHashSet {
         for (T elem : from) {
             toReturn.add(elem);
         }
+
         return toReturn;
     }
 }
