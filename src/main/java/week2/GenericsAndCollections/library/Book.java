@@ -53,7 +53,6 @@ public class Book {
 //  public boolean equals(Object x) {
 //    return(this == y)
 //  }
-//  Необходим для сравнения по значениям, а не по ссылке
   @Override
   public int hashCode() {
     int hash = 7;
@@ -61,6 +60,7 @@ public class Book {
     hash = 31 * hash + (author == null ? 0 : author.hashCode());
     return hash;
   }
+  //  Необходим для сравнения по значениям, а не по ссылке
   @Override
   public boolean equals(Object o) {
     // self check

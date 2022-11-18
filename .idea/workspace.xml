@@ -4,33 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc9ea9b-4d3d-4cb4-93b3-d06452cc6bd6" name="Changes" comment="week 4">
+    <list default="true" id="7dc9ea9b-4d3d-4cb4-93b3-d06452cc6bd6" name="Changes" comment="generic and collections">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/library/dao/AuthorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/tasks/task10/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/annotations/AnnotationReflection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/annotations/ClassDescription.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/annotations/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/annotations/MetaAnnotations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/annotations/PerfectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/annotations/Summable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/annotations/Summator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/Invoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/LoggingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/SecondSimpleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/SetValue.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/SimpleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/SomeClassWithMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/practice/ToBeLogged.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/reflection/Reflection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/reflection/ReflectionClassModifiers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/reflection/ReflectionClassName.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/reflection/ReflectionMethodsConstructor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/reflection/ReflectionSuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection/reflection/SimpleClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4/StreamNIOFunctional/functional/FunctionalInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4/StreamNIOFunctional/functional/FunctionalInterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4/StreamNIOFunctional/streams/StreamExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4/StreamNIOFunctional/streams/StreamExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/PersonAgeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/PersonAgeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/StringPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/StringPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/TreeSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/TreeSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2/GenericsAndCollections/library/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -38,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,33 +68,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;452d0a&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/n.veko/IdeaProjects/SberCoursesProfileModule/src/main/java/week4/StreamNIOFunctional&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\n.veko\IdeaProjects\SberCoursesProfileModule\src\main\java\week4\StreamNIOFunctional" />
-      <recent name="C:\Users\n.veko\IdeaProjects\SberCoursesProfileModule\src\main\java\week3\AnnotationAndReflection" />
+      <recent name="$PROJECT_DIR$/src/main/java/week3/AnnotationAndReflection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\n.veko\IdeaProjects\SberCourses\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalInterfaceTest">
-    <configuration name="FunctionalInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.StreamNIOFunctional.functional.FunctionalInterfaceTest" />
+  <component name="RunManager" selected="Application.ReflectionClassModifiers">
+    <configuration name="AnnotationReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.AnnotationAndReflection.annotations.AnnotationReflection" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.StreamNIOFunctional.functional.*" />
+          <option name="PATTERN" value="week3.AnnotationAndReflection.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.GenericsAndCollections.Main" />
+      <option name="MAIN_CLASS_NAME" value="week3.AnnotationAndReflection.annotations.Main" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.GenericsAndCollections.library.*" />
+          <option name="PATTERN" value="week3.AnnotationAndReflection.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.AnnotationAndReflection.practice.SimpleClass" />
+    <configuration name="ReflectionClassModifiers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.AnnotationAndReflection.reflection.ReflectionClassModifiers" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.AnnotationAndReflection.practice.*" />
+          <option name="PATTERN" value="week3.AnnotationAndReflection.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week2.GenericsAndCollections.library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.GenericsAndCollections.library.Main" />
+    <configuration name="ReflectionMethodsConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.AnnotationAndReflection.reflection.ReflectionMethodsConstructor" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.GenericsAndCollections.library.*" />
+          <option name="PATTERN" value="week3.AnnotationAndReflection.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,26 +138,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week3.AnnotationAndReflection.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.AnnotationAndReflection.practice.Main" />
+    <configuration name="ReflectionSuperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.AnnotationAndReflection.reflection.ReflectionSuperClass" />
       <module name="SberCourses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.AnnotationAndReflection.practice.*" />
+          <option name="PATTERN" value="week3.AnnotationAndReflection.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionalInterfaceTest" />
-        <item itemvalue="Application.SimpleClass" />
-        <item itemvalue="Application.week3.AnnotationAndReflection.practice.Main" />
+        <item itemvalue="Application.ReflectionClassModifiers" />
+        <item itemvalue="Application.AnnotationReflection" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.week2.GenericsAndCollections.library.Main" />
+        <item itemvalue="Application.ReflectionMethodsConstructor" />
+        <item itemvalue="Application.ReflectionSuperClass" />
       </list>
     </recent_temporary>
   </component>
@@ -167,10 +185,11 @@
       <workItem from="1667304509020" duration="3250000" />
       <workItem from="1667461518264" duration="10485000" />
       <workItem from="1667890822274" duration="16170000" />
-      <workItem from="1668512772606" duration="5120000" />
-      <workItem from="1668688915403" duration="4095000" />
-      <workItem from="1668750737259" duration="1090000" />
-      <workItem from="1668759627410" duration="6471000" />
+      <workItem from="1667936021306" duration="50000" />
+      <workItem from="1668093278180" duration="33912000" />
+      <workItem from="1668523010032" duration="10409000" />
+      <workItem from="1668630553384" duration="395000" />
+      <workItem from="1668696970726" duration="10732000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666952830918</created>
@@ -186,14 +205,7 @@
       <option name="project" value="LOCAL" />
       <updated>1667303478504</updated>
     </task>
-    <task id="LOCAL-00003" summary="week 4">
-      <created>1668751150002</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668751150002</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +225,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="new code" />
-    <MESSAGE value="week 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new code" />
   </component>
 </project>

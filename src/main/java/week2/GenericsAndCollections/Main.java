@@ -2,7 +2,9 @@ package week2.GenericsAndCollections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -34,22 +36,7 @@ public class Main {
 //      System.out.println(str);
 //    }
 
-    Book book1 = new Book("Java", "Herbert Schildt");
-    List<Integer> list1 = Arrays.asList(10, 9, 10, 10);
 
-    Book book2 = new Book("Introduction to Algorithms", "Thomas H. Cormen");
-    List<Integer> list2 = Arrays.asList(9, 10, 8, 10);
-
-    Book book3 = new Book("The Art of Computer Programming", "Donald Knuth");
-    List<Integer> list3 = Arrays.asList(8, 9, 8, 7);
-
-
-    Map<Book, List<Integer>> map = new HashMap<>();
-    map.put(book1, list1);
-    map.put(book2, list2);
-    map.put(book3, list3);
-
-    System.out.println(map.get(new Book("Introduction to Algorithms", "Thomas H. Cormen")));
 
 
 
@@ -60,6 +47,11 @@ public class Main {
     listInt.add(7);
     listInt.add(1);
     listInt.add(33);
+    Collections.sort(listInt);
+
+    Set<Integer> set = new HashSet<>(listInt);
+
+    System.out.println(set);
 //    firstExample(listInt);
   }
 

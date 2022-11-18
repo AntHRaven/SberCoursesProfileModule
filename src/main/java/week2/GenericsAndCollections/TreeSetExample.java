@@ -9,7 +9,7 @@ public class TreeSetExample {
   //2 в обратную сторону
   //3 по возрасту
   public static void main(String[] args) {
-    TreeSet<Person> treeSet = new TreeSet<>(new PersonAgeComparator());
+    TreeSet<Person> treeSet = new TreeSet<>(new PersonComparator());
     treeSet.add(new Person("test", 1));
     treeSet.add(new Person("tes", 2));
     treeSet.add(new Person("testt", 3));
