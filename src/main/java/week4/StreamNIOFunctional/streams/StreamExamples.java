@@ -2,10 +2,10 @@ package week4.StreamNIOFunctional.streams;
 
 import java.util.List;
 
+//https://javarush.ru/groups/posts/845-lambda-vihrazhenija-na-primerakh
 /*
 примеры
 TODO: прочесть про функциональные интерфейсы (предикаты, функции и тп) https://habr.com/ru/post/677610/
-TODO: шпаргалка по методам и функциям стримов - https://habr.com/ru/company/luxoft/blog/270383/
  */
 public class StreamExamples {
     public static void main(String[] args) {
