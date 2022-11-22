@@ -22,6 +22,7 @@ public class Main {
     List<Path> paths = getAllFilesAndDirs(dir);
     paths.forEach(i -> {
       try {
+        Files.getAttribute(i, "creationTime");
         BasicFileAttributes attr =
             Files.readAttributes(i, BasicFileAttributes.class);
         if (attr.creationTime().toMillis() < (new Date().getTime() - week)) {

@@ -1,6 +1,7 @@
 package week4.StreamNIOFunctional.streams;
 
 import java.util.List;
+import java.util.stream.IntStream;
 
 //https://javarush.ru/groups/posts/845-lambda-vihrazhenija-na-primerakh
 /*
@@ -10,7 +11,7 @@ TODO: прочесть про функциональные интерфейсы 
 public class StreamExamples {
     public static void main(String[] args) {
         List<String> myPlaces = List.of("Nepal, Kathmandu", "Nepal, Pokhara", "India, Delhi", "USA, New York", "Africa, Nigeria");
-        
+        System.out.println(IntStream.rangeClosed(1, 10).peek(System.out::println).sum());
         //фильтрация городов с выводом на экран
         myPlaces.stream()
               .filter((p) -> p.startsWith("Nepal"))
